@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: mcp demo with java
+
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}
+
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:server.json

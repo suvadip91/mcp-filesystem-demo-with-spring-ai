@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\Project\\04_SPRING_AI_JAN_2026\\mcp-demo\\mcp-server"
+      ]
+    }
+  }
+}
